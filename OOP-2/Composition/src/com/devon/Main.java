@@ -10,8 +10,6 @@ public class Main {
 	    Case theCase = new Case("22b","Dell","120v",dimensions);
 	    PC myAwesomePC = new PC(theCase,monitor,motherBoard);
 
-	    myAwesomePC.getTheCase().pressPowerButton();
-	    myAwesomePC.getMonitor().drawPixelAt(240,300,"green");
-	    myAwesomePC.getMotherboard().loadProgram("Galaxy Quest");
+	   myAwesomePC.powerUp();
     }
 }
