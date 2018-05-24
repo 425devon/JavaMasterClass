@@ -1,4 +1,4 @@
-package com.devon;
+package com.devon.Models;
 
 public class Monitor {
     private String model;

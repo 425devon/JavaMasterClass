@@ -1,12 +1,14 @@
-package com.devon;
+package com.devon.Models;
 
-public class Resolution {
+public class Dimension {
     private int width;
     private int height;
+    private int depth;
 
-    public Resolution(int width, int height) {
+    public Dimension(int width, int height, int depth) {
         this.width = width;
         this.height = height;
+        this.depth = depth;
     }
 
     public int getWidth() {
@@ -23,5 +25,13 @@ public class Resolution {
 
     public void setHeight(int height) {
         this.height = height;
+    }
+
+    public int getDepth() {
+        return depth;
+    }
+
+    public void setDepth(int depth) {
+        this.depth = depth;
     }
 }

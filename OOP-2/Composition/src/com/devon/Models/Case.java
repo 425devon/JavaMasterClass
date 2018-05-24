@@ -1,6 +1,4 @@
-package com.devon;
-
-import java.awt.*;
+package com.devon.Models;
 
 public class Case {
     private String model;
