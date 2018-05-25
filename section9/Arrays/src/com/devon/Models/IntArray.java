@@ -27,7 +27,7 @@ public class IntArray {
     public void insert(int index, int value){
         try{
             intArray[index] = value;
-        }catch (NullPointerException e){
+        }catch (ArrayIndexOutOfBoundsException e){
             System.out.println(e);
         }
     }
