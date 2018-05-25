@@ -54,11 +54,28 @@ public class IntArray {
 
     public int[] createIntArrFromUserInput(int number){
         this.intArray = new int[number];
-        System.out.println("Enter " + number + " integer values.\r");
+        System.out.println("Enter " + number + " integer values.\n");
         for(int i = 0; i < this.intArray.length; i++){
             this.intArray[i] = scanner.nextInt();
         }
         return this.intArray;
+    }
+
+    public void bubbleSort(){
+        boolean sorted;
+        do{
+            sorted = false;
+            for(int i=1; i < this.intArray.length; i++){
+                if(this.intArray[i - 1] > this.intArray[i]){
+                    int temp = this.intArray[i-1];
+                    this.intArray[i -1] = this.intArray[i];
+                    this.intArray[i] = temp;
+                    sorted = true;
+                }
+            }
+
+        }while(sorted);
+
     }
 
 }

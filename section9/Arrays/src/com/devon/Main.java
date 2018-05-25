@@ -17,7 +17,10 @@ public class Main {
 //        intArray2.createRange(10,50);
 //        intArray2.printArray();
 //        intArray2.getArrayLength();
-        intArray2.createIntArrFromUserInput(5);
+        intArray2.createIntArrFromUserInput(10);
+        intArray2.printArray();
+        System.out.println("************");
+        intArray2.bubbleSort();
         intArray2.printArray();
     }
 }
