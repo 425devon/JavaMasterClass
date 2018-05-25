@@ -1,11 +1,10 @@
 package com.devon.Models;
 
 public class HealthyBurger extends Hamburger {
-    private boolean hummus;
-    private boolean avacado;
+    private boolean hummus = false;
+    private boolean avacado = false;
 
-    public HealthyBurger(String bun, String meat, boolean hummus, boolean avacado, boolean cheese, boolean pickles,
-    boolean tomatoes, boolean lettuce) {
+    public HealthyBurger(String meat) {
         super("Rye", meat);
         this.hummus = hummus;
         this.avacado = avacado;
