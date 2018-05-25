@@ -118,9 +118,9 @@
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="right" id="Run" order="8" visible="true" weight="0.23869048" />
+      <window_info anchor="right" id="Run" order="8" weight="0.23869048" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info active="true" anchor="top" x="968" y="466" width="645" height="482" id="Terminal" order="0" type="WINDOWED" visible="true" weight="0.32980973" />
+      <window_info anchor="top" x="968" y="466" width="645" height="482" id="Terminal" order="0" type="WINDOWED" weight="0.32980973" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
