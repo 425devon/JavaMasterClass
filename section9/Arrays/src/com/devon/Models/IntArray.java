@@ -1,6 +1,10 @@
 package com.devon.Models;
 
+
+import java.util.Scanner;
+
 public class IntArray {
+    private static Scanner scanner = new Scanner(System.in);
     private int[] intArray;
 
     public IntArray() {
@@ -46,6 +50,15 @@ public class IntArray {
         for(int val: this.intArray){
             System.out.println(val);
         }
+    }
+
+    public int[] createIntArrFromUserInput(int number){
+        this.intArray = new int[number];
+        System.out.println("Enter " + number + " integer values.\r");
+        for(int i = 0; i < this.intArray.length; i++){
+            this.intArray[i] = scanner.nextInt();
+        }
+        return this.intArray;
     }
 
 }
