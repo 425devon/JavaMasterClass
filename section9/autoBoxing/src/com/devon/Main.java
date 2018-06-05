@@ -28,7 +28,7 @@ public class Main {
         for(Double d=0.0; d<=10; d+=0.5){
             dblMint.add(d);
         }
-        for(Double d : dblMint){
+        for(double d : dblMint){
             System.out.println(d);
         }
     }
