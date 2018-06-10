@@ -16,18 +16,25 @@ public class Main {
 
 
         //local class example
-        class ClickListener implements Button.OnClickListener{
-            public ClickListener(){
-                System.out.println("I've been attached");
-            }
-
+//        class ClickListener implements Button.OnClickListener{
+//            public ClickListener(){
+//                System.out.println("I've been attached");
+//            }
+//
+//            @Override
+//            public void onClick(String title) {
+//                System.out.printf("%s was clicked!\n",title);
+//            }
+//        }
+//
+//        //btnPrint.setOnClickListener(new ClickListener());
+        //Anonymous Class
+        btnPrint.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(String title) {
-                System.out.printf("%s was clicked!\n",title);
+                System.out.println(title + " was clicked from an anonymous class");
             }
-        }
-
-        btnPrint.setOnClickListener(new ClickListener());
+        });
         listen();
     }
 
